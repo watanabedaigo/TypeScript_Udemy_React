@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './Counter';
+import CounterWithReducer from './CounterWithReducer';
 
 interface AppProps {
   message: string;
@@ -17,6 +18,9 @@ const App: React.FC<AppProps> = ({ message, name }) => {
       <p>{name}</p>
       <div>
         <Counter />
+      </div>
+      <div>
+        <CounterWithReducer />
       </div>
     </div>
   );
