@@ -13,7 +13,7 @@ interface AppProps {
 const App: React.FC<AppProps> = ({ message, name }) => {
   return (
     <div className="App">
-      <p>{name}</p>
+      <p>{message}</p>
       <p>{name}</p>
       <div>
         <Counter />
